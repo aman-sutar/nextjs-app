@@ -105,7 +105,7 @@ Minikube provides a way to expose services via a browser. To access the deployed
    minikube service nextjs-app-service --url
    ```
 
-2. Open the provided URL in your browser to access the application.
+2. Open the provided URL in your browser to access the application. (or below url)
 
    ```bash
    localhost 
