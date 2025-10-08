@@ -48,7 +48,7 @@ To run the application locally (before deploying to Kubernetes), follow these st
 
 ## Run the Application via Docker
 
-If you'd prefer to run the application using Docker, follow these steps:
+If you'd prefer to run the application using Docker, Make sure not any Application using 3000 port and follow these steps:
 
 ### Step 1: Build the Docker Image
 
