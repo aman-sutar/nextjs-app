@@ -17,7 +17,7 @@ Make sure you have the following tools installed on your system:
 
 ## Setup Instructions
 
-### Step 1: Clone the Repository
+## Clone the Repository
 
 Clone this repository to your local machine:
 
@@ -25,24 +25,33 @@ Clone this repository to your local machine:
 git clone https://github.com/aman-sutar/nextjs-app.git
 cd nextjs-app
 ```
+---
 
-### Step 2: Build and Run the Application Locally
+## Run the Application via Docker
 
-To run the application locally (before deploying to Kubernetes), follow these steps:
+If you'd prefer to run the application using Docker, follow these steps:
 
-1. **Install dependencies**:
+### Step 1: Build the Docker Image
 
-   ```bash
-   npm install
-   ```
+In the project directory, build the Docker image using the provided `Dockerfile`:
 
-2. **Start the development server**:
+```bash
+docker build -t nextjs-app .
+```
 
-   ```bash
-   npm run dev
-   ```
+### Step 2: Run the Docker Container
 
-3. Visit [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
+Once the image is built, run it as a container:
+
+```bash
+docker run -p 3000:3000 nextjs-app
+```
+
+This command will run the application in a Docker container and map port `3000` from the container to port `3000` on your local machine.
+
+### Step 3: Access the Application
+
+Once the container is running, open your browser and go to [http://localhost:3000](http://localhost:3000) to access the application.
 
 ---
 
