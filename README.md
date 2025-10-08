@@ -79,6 +79,14 @@ Minikube provides a way to expose services via a browser. To access the deployed
 
 2. Open the provided URL in your browser to access the application.
 
+   ```bash
+   localhost 
+   ```
+    ```bash
+   localhost:80 
+   ```
+
+
 ---
 
 ## CI/CD with GitHub Actions
