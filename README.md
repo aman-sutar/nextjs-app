@@ -22,8 +22,8 @@ Make sure you have the following tools installed on your system:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/nextjs-devops-assessment.git
-cd nextjs-devops-assessment
+git clone https://github.com/aman-sutar/nextjs-app.git
+cd nextjs-app
 ```
 
 ### Step 2: Build and Run the Application Locally
@@ -96,7 +96,7 @@ On each push to the `main` branch, the application Docker image is automatically
 Ensure that:
 
 * Your GitHub repository is connected to GitHub Actions.
-* The `docker.yml` workflow in the `.github/workflows/` directory is configured to build and push the image upon every `main` branch push.
+* The `docker-publish.yml` workflow in the `.github/workflows/` directory is configured to build and push the image upon every `main` branch push.
 
 ---
 
