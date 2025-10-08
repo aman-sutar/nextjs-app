@@ -27,6 +27,25 @@ cd nextjs-app
 ```
 ---
 
+## Build and Run the Application Locally
+
+To run the application locally (before deploying to Kubernetes), follow these steps:
+
+1. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Visit [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
+
+
 ## Run the Application via Docker
 
 If you'd prefer to run the application using Docker, follow these steps:
@@ -113,8 +132,7 @@ Ensure that:
 
 By following these steps, you can:
 
-1. Run the Next.js application locally using Docker.
+1. Run the Next.js application locally using Node or Even with Docker.
 2. Deploy the application to a Minikube Kubernetes cluster.
 3. Automatically build and deploy updates using GitHub Actions.
 
-For troubleshooting or further setup instructions, refer to the documentation in the repository or feel free to reach out for assistance.
